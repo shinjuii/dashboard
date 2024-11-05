@@ -1,0 +1,125 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    height: 15%;
+    width: 100%;
+    background-color:#8AA65A;
+    position: fixed;
+
+}
+
+.container h4 {
+    text-align: center;
+}
+.sidebar {
+    width: 200px;
+    background-color: #8AA65A;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    color: white;
+}
+.sidebar h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sidebar .profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sidebar .profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.sidebar .profile p {
+    margin: 10px 0 0;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 15px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #7a9d54;
+}
+.sidebar ul li i {
+    margin-right: 10px;
+}
+.sidebar ul li.logout {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.sidebar ul li:hover {
+    background-color: #7a9d54;
+    cursor: pointer;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+.content h2 {
+    margin-top: 100px;
+    background-color:#7a9d54;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.content .announcement {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.content .announcement img {
+    width: 100%;
+    height: auto;
+}
+.content .announcement h3 {
+    background-color: #8AA65A;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.content .instructions {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.content .instructions h3 {
+    background-color: #8AA65A;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.content .instructions ol {
+    padding-left: 20px;
+}
+.content .calendar {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.content .calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.content .calendar th, .content .calendar td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.content .calendar th {
+    background-color: #f0f0f0;
+}
